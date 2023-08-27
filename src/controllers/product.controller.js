@@ -87,7 +87,7 @@ module.exports = {
             }
 
             if(req.file){
-                req.body.image = req.file.filename
+                req.body.image = req.file.path
             }
 
             const data = await Product.create(req.body)
