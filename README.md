@@ -43,7 +43,8 @@ Web application For A web application for listing products and creating new prod
 4. Create a new database named: db_sequelize.
 5. Then, type sequelize db:migrate to add all tables to the database.
 6. After that, type in the terminal: sequelize db:seed --seed [generated product file name] to seed the database with data.
-7. Don't forget download frontend App to use Backend App
+7. use npm run dev to running apk backend in terminal
+8. Don't forget download frontend App to use Backend App
 
 
 
